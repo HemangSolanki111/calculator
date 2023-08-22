@@ -27,7 +27,7 @@ function pr()
 {
     var x=document.getElementById("result").value;
     var y=document.getElementById("result").value;
-    var prc=x*y/100;
+    var prc=x/100;
     document.getElementById("result").value=prc;
 }
 
